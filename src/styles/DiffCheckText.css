@@ -1,0 +1,89 @@
+.text-same {
+	color: #5b5;
+	background-color: rgba(85, 187, 85, 0.2);
+}
+
+.text-added {
+	color: #55b;
+	background-color: rgba(85, 187, 187, 0.2);
+}
+
+.text-deleted {
+	color: #b55;
+	background-color: rgba(187, 85, 85, 0.2);
+}
+
+.diffchecker-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	gap: 1rem;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	margin: 3rem 0 1rem 0;
+	padding: 1rem;
+	width: 100%;
+}
+
+.diffchecker-text-inputs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	width: 100%;
+}
+
+.diffchecker-text-inputs textarea {
+	resize: none;
+	border: 1px solid #e6e6e6;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.diffchecker-text-btns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	width: 100%;
+}
+
+.btn {
+	color: #555;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	color: #000;
+	background-color: #7ef;
+}
+
+.diffchecker-results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	width: 100%;
+}
+
+.diffchecker-results div {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	border: 1px solid #e6e6e6;
+	border-radius: 0.5rem;
+	padding: 1rem 0.5rem;
+	gap: 1rem;
+	width: 100%;
+}
