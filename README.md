@@ -1,8 +1,25 @@
-# React + Vite
+# DiffChecker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DiffChecker is a JavaScript project that provides functionality to compare two text inputs and highlight the differences.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/diffchecker.git
+```
+
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+## Running Tests
+
+This project uses Jest for testing. To run the tests, use the following command:
+
+```bash
+npm test
+```

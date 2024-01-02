@@ -46,6 +46,11 @@
 	width: 100%;
 }
 
+.diffchecker-text-inputs textarea:focus {
+	outline: 1px solid #7ef;
+	border: 1px solid #7ef;
+}
+
 .diffchecker-text-btns {
 	display: flex;
 	align-items: center;
@@ -70,7 +75,7 @@
 
 .diffchecker-results {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	gap: 1rem;
 	width: 100%;
