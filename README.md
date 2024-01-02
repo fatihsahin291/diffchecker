@@ -7,7 +7,7 @@ DiffChecker is a JavaScript project that provides functionality to compare two t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/diffchecker.git
+git clone https://github.com/fatihsahin291/diffchecker.git
 ```
 
 2. Install the dependencies:
