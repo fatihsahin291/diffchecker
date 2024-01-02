@@ -15,11 +15,3 @@ git clone https://github.com/fatihsahin291/diffchecker.git
 ```bash
 npm install
 ```
-
-## Running Tests
-
-This project uses Jest for testing. To run the tests, use the following command:
-
-```bash
-npm test
-```
